@@ -67,6 +67,7 @@ services:
         - DIRECT_ADDRESS_GET_WAN=${DIRECT_ADDRESS_GET_WAN:-false}
         - SSH_PORT=${SSH_PORT:-22}
         - WORKSPACE=${WORKSPACE:-/workspace}
+        - WORKSPACE_HOST=${WORKSPACE_HOST:-./workspace}
         - WORKSPACE_SYNC=${WORKSPACE_SYNC:-true}
         - CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN:-}
         - CF_QUICK_TUNNELS=${CF_QUICK_TUNNELS:-true}
